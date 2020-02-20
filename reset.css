@@ -69,12 +69,17 @@ label {
 input[type='text'],
 input[type='email'],
 input[type='password'],
-input[type='date'], 
 select {
 	padding: 8px;
 	font-size: 0.9rem;
 	border: 1px solid lightgrey;
     width: 100%;
+}
+
+input[type='date'] {
+    padding: 8px;
+    font-size: 0.9rem;
+    border: 1px solid lightgrey;
 }
 
 input[type='submit'] {
